@@ -17,8 +17,6 @@ chunks.push(chunk);
   var XHR = new XMLHttpRequest();
     var urlEncodedData = "";
     var urlEncodedDataPairs = [];
-
-    w3ChunksL = chunks.lenght;
     
 urlEncodedDataPairs.push(encodeURIComponent("w3Chunk") + '=' + encodeURIComponent(chunks[count]) + '&' + encodeURIComponent("FNameChunks") + '=' + encodeURIComponent(FNameChunks));
 
