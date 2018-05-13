@@ -13,7 +13,7 @@ foreach($_POST as $k => $p){
 }
 $media_fname = $FNameChunks.'.webm';
 //sleep(3);
-if(!file_put_contents( "./".$media_fname, $w3streamfw, FILE_APPEND | LOCK_EX )){
+if(!file_put_contents( "./".$media_fname, $w3streamfw, FILE_APPEND )){
  echo"Error:: w3FWerror"; // ERROR: the file has not been created
 	exit;
 } else {
